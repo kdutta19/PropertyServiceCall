@@ -25,7 +25,7 @@ export function ConfirmDialog({
   children?: React.ReactNode;
 }) {
   return (
-    <Modal visible={visible} transparent animationType="fade" onRequestClose={onCancel}>
+    <Modal visible={visible} transparent animationType="none" onRequestClose={onCancel}>
       <Pressable
         accessibilityLabel="Dismiss"
         onPress={onCancel}

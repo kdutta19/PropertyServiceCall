@@ -4,6 +4,18 @@ A maintenance-request app for small residential properties. Tenants report probl
 
 Expo (SDK 58) · React Native · TypeScript · Expo Router · Supabase (Auth, Postgres, Storage).
 
+## Screenshots
+
+Captured from the web build in demo mode at phone width.
+
+| Sign in (demo people) | Tenant: my requests | New request |
+|---|---|---|
+| <img src="docs/screenshots/sign-in.png" width="240" alt="Sign-in screen listing the demo accounts"> | <img src="docs/screenshots/tenant-requests.png" width="240" alt="Tenant request list with status badges"> | <img src="docs/screenshots/new-request.png" width="240" alt="New request form with category, urgency and description"> |
+
+| Offline draft | Manager queue | Request history |
+|---|---|---|
+| <img src="docs/screenshots/offline-draft.png" width="240" alt="Offline banner and a draft saved on the device only"> | <img src="docs/screenshots/manager-queue.png" width="240" alt="Manager work queue with search and filters"> | <img src="docs/screenshots/request-history.png" width="240" alt="Completed request with completion note and activity history"> |
+
 ## Quick start (no backend needed)
 
 ```bash
